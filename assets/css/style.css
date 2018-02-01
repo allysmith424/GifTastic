@@ -4,15 +4,10 @@ header {
 	width: 100%;
 	height: 100px;
 	z-index: 1;
-	background-color: #00334c;
-	color: #00ff9d;
-}
-
-p {
+	background-color: rgba(255, 255, 255, 0.8);
+	border-bottom: 2px solid #00c5f7;
 	color: #00334c;
-	font-weight: 800;
 }
-
 
 h1 {
 	padding-top: 20px;
@@ -25,7 +20,7 @@ h1 {
 }
 
 .container {
-	max-width: 1160px;
+	max-width: 1200px;
 	margin-top: 134px;
 	z-index: 0;
 }
@@ -40,9 +35,14 @@ h1 {
 	margin-bottom: 10px;
 }
 
+.or {
+	padding-bottom: 15px;
+}
+
 #buttons {
 	height: auto;
 	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 #gifs {
@@ -53,13 +53,11 @@ h1 {
 
 #gifs p {
 	position: relative;
-	height: 30px;
-	width: 30px;
+	top: 107px;
 	left: 20px;
-	color: #FFFF00;
-	border: 0.5px solid #FFFF00;
-	border-radius: 50%;
-	height: auto;
+	color: #757575;
+	font-weight: 100;
+	font-size: 12px;
 }
 
 #gifs div {
@@ -67,11 +65,7 @@ h1 {
 	margin: 20px;
 }
 
-button {
-	color: #00334c;
-	font-weight: 600;
-}
-
-button:hover {
-	color: #003d73;
+#gifs img {
+	padding: 0 0 30px 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
